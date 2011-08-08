@@ -16,7 +16,7 @@ h2. Installing
 
  <pre>
 	<code>
-		gem 'ruby-http-client', :git => 'git://github.com/jwhitehorn/ruby-http-client.git'
+gem 'ruby-http-client', :git => 'git://github.com/jwhitehorn/ruby-http-client.git'
 	</code>
 </pre>
 
