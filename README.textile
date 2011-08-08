@@ -11,7 +11,9 @@ A simple Net::HTTP based HTTP client that supports:
  * detection of response encoding
 
 h2. Installing
+
  Getting started with ruby-http-client is as simple as adding it to your Gemfile:
+
  <pre>
 	<code>
 		gem 'ruby-http-client', :git => 'git://github.com/jwhitehorn/ruby-http-client.git'
