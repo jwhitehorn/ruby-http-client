@@ -37,4 +37,4 @@ encoding = HTTP.encoding(response)
   </code>
 </pre>
 
-The return type of "Net::HTTPResponse":http://ruby-doc.org/stdlib/libdoc/net/http/rdoc/classes/Net/HTTPResponse.html
+The return type is of type "Net::HTTPResponse":http://ruby-doc.org/stdlib/libdoc/net/http/rdoc/classes/Net/HTTPResponse.html
