@@ -6,12 +6,14 @@ require "addressable/uri" # no more URI::InvalidURIError: bad URI(is not URI?)
 class HTTP
   class << self
     def get(url, options = {})
-      execute(url, options)
+      response, url = execute(url, options)
+      response
     end
 
     def post(url, options = {})
       options = { :method => :post }.merge(options)
-      execute(url, options)
+      response, url = execute(url, options)
+      response
     end
 
     def encoding(response)

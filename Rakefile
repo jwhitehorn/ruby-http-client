@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'  
 require 'echoe'  
   
-Echoe.new('ruby-http-client', '4.0.1') do |p|  
+Echoe.new('ruby-http-client', '4.0.2') do |p|  
   p.description     = "A simple HTTP client"  
   p.url             = "https://github.com/jwhitehorn/ruby-http-client"  
   p.author          = "Jason Whitehorn"  
